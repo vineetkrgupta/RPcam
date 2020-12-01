@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "id": "446281ee-77c7-459f-b449-4314ae1b5f50",
+      "name": "Shortcuts",
+      "shortcuts": [
+        {
+          "iconName": "flat_color_videocameraclassic",
+          "id": "1c0ef9a6-1eac-47c6-ac66-b8ac1a29887a",
+          "name": "Start recording",
+          "responseHandling": {
+            "id": "1e2bb835-5d68-4438-8072-bef32924d0f8"
+          },
+          "url": "http://192.168.43.133:5000/StartRecord"
+        },
+        {
+          "iconName": "flat_color_clapboard",
+          "id": "fab271ab-3474-48eb-a1f8-1356c9d77794",
+          "name": "Stop Recoding",
+          "responseHandling": {
+            "id": "11ba80fe-30e5-469c-af52-1c60f5ec36e1"
+          },
+          "url": "http://192.168.43.133:5000/StopRecord"
+        },
+        {
+          "iconName": "flat_grey_camera",
+          "id": "38b71f91-708f-4f42-af1a-085d1469583a",
+          "name": "Photo",
+          "responseHandling": {
+            "id": "3fd851b9-c839-4ba6-b999-28144d8a220c"
+          },
+          "url": "http://192.168.43.133:5000/TakePicture"
+        },
+        {
+          "iconName": "flat_color_contrast",
+          "id": "3f965cb6-9d43-47bf-a205-3f2060fc8cea",
+          "name": "Photo Night ",
+          "responseHandling": {
+            "id": "c830e862-b314-4510-9ed1-1771d0243d61"
+          },
+          "url": "http://192.168.43.133:5000/TakePicNight"
+        },
+        {
+          "iconName": "freepik_check",
+          "id": "aa8b9d61-108a-4401-b4ed-7b4953972ba7",
+          "name": "Check",
+          "responseHandling": {
+            "id": "6ce1ef16-2438-4ee6-93d8-46aecc3d121a"
+          },
+          "url": "http://192.168.43.133:5000/check"
+        },
+        {
+          "iconName": "flat_color_brightness_3",
+          "id": "741ad0c9-c35a-4db0-916a-b297150cb6e6",
+          "name": "Last File",
+          "responseHandling": {
+            "id": "1d726a3c-859a-4f77-a4e9-d5d3e615c202"
+          },
+          "url": "http://192.168.43.133:5000/last"
+        },
+        {
+          "iconName": "flat_color_brightness_6",
+          "id": "ea6669ce-3518-483f-bada-8bbc0bac4f36",
+          "name": "Day",
+          "responseHandling": {
+            "id": "5a1123a0-0f2f-4f22-90d4-fd188fecc0fe"
+          },
+          "url": "http://192.168.43.133:5000/day"
+        },
+        {
+          "iconName": "flat_color_brightness_2",
+          "id": "3a5389d1-b1a7-439d-9fb5-779bd042261d",
+          "name": "Night",
+          "responseHandling": {
+            "id": "9d122933-a754-4119-bfc7-f4299a7c7de6"
+          },
+          "url": "http://192.168.43.133:5000/night"
+        },
+        {
+          "iconName": "flat_color_cursor",
+          "id": "7f51868e-9618-4360-883d-3d8055e45229",
+          "name": "shutdown",
+          "responseHandling": {
+            "id": "a0a9c694-a3f8-442f-9cc9-c5209c3c960a"
+          },
+          "url": "http://192.168.43.133:5000/shutdown"
+        }
+      ]
+    }
+  ],
+  "version": 41
+}
